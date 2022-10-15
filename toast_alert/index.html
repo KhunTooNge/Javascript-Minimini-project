@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css" rel="stylesheet" />
+    <title>Thost Alert</title>
+    <style>
+        body {
+            background-color: #343a40;
+        }
+        
+        .container-fluid {
+            height: 100vh;
+        }
+        
+        .parent {
+            width: 100%;
+            align-items: center;
+            position: fixed;
+            bottom: 0px;
+            text-align: center;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .parent .child {
+            background-color: aqua;
+            padding: 5px;
+            border-radius: 4px;
+            position: relative;
+            transition: bottom 0.4s ease-in-out;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+        <button class="btn btn-info">Click</button>
+    </div>
+    <div class="parent">
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

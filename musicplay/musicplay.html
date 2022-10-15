@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Music Play</title>
+
+</head>
+
+<body>
+
+    <div class="container d-flex flex-column">
+        <div class="playlistContainer"></div>
+
+        <audio src="" class="autioTab"></audio>
+        <div class="currentAndTotalTime text-white">00:00 / 00:00</div>
+        <div id="progressbar">
+            <div id="currentProgressbar"></div>
+        </div>
+        <div class="musicPlayer">
+            <i class="fa-solid fa-backward-fast backwardicon controls"></i>
+            <i class="fa-solid fa-circle-play playicon controls "></i>
+            <i class="fa-solid fa-circle-pause pauseicon controls "></i>
+            <i class="fa-solid fa-forward-fast forwardicon controls "></i>
+        </div>
+    </div>
+
+
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/63064025bf.js" crossorigin="anonymous"></script>
+    <script src="musicplay.js">
+    </script>
+</body>
+
+</html>

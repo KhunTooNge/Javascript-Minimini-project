@@ -1,0 +1,17 @@
+.image {
+    width: 500px;
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+#mybutton {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    top: 10;
+    left: 44%;
+    z-index: 99;
+}

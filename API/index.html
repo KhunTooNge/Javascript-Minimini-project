@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            margin: 100px;
+        }
+     
+  
+        table tr th{
+            border: 1;
+            background-color: black;
+            color:white;
+            padding:5px 80px;
+        }
+
+        tbody tr td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        tbody tr .td-title{
+            text-align: left;
+        }
+     
+        img{
+            width: 80px;
+        }
+
+        .card{
+            display: flex;
+            justify-content: center;
+        }
+        .card-body{
+            margin-top: 50px;
+            width: 600px;
+        }
+
+        .detail-page{
+            border: 1px solid black;
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            column-gap: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+        </div>
+    </div>
+      
+    <div class="container">
+      
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Rate</th>
+                <th>Image</th>
+            </tr>
+            <tbody class="list">
+             
+            </tbody>
+           
+        </table>
+    </div>
+    
+</body>
+<script src="javascript.js"></script>
+</html>

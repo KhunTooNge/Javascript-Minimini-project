@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Special Elite', cursive;
+}
+
+.container {
+    background: rgb(212, 36, 205);
+    background: linear-gradient(90deg, rgba(212, 36, 205, 0.8239670868347339) 9%, rgba(201, 223, 48, 0.8715861344537815) 100%);
+    position: relative;
+
+}
+
+.clock-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    background-color: rgba(171, 12, 12, 0.2);
+    padding: 0px 60px 10px;
+    box-shadow: 0px 4px 10px rgba(24, 24, 24, 0.358);
+    border-radius: 10px;
+}
+
+.hms h2 {
+    font-size: 3rem;
+    display: inline;
+    color: rgb(176, 156, 156);
+}
+
+.hms span {
+    font-size: 20pt;
+    color: rgb(103, 93, 93);
+}
+
+.ymd p {
+    margin: 15px 0;
+    text-align: center;
+    color: rgb(7, 97, 175);
+}
+
+.clock .htwo {
+    position: relative;
+    top: -10px;
+    left: -50px;
+    color: rgba(23, 5, 71, 0.72);
+}

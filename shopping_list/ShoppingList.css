@@ -1,0 +1,54 @@
+body {
+    background-color: #343a40;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.listContainer {
+    margin-top: 20px;
+}
+
+.form-control {
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.userslelct {
+    user-select: none;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.linethrow {
+    text-decoration: line-through;
+}
+
+.icontrash {
+    color: wheat;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+/* .list-group-item {
+    display: list-item;
+}
+
+.list-group {
+    list-style: decimal inside;
+} */

@@ -1,0 +1,51 @@
+   body {
+       background-color: #3ca0d2;
+   }
+   
+   .container {
+       height: 100vh;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .playlistContainer {
+       margin-bottom: 30px;
+   }
+   
+   .trackItem {
+       color: #ffc107;
+       font-size: 20px;
+       border-bottom: 1px solid #6c757d;
+       padding: 10px 0px;
+       cursor: pointer;
+       user-select: none;
+   }
+   
+   #progressbar {
+       width: 500px;
+       background-color: #fff;
+       height: 5px;
+       z-index: inherit;
+   }
+   
+   #currentProgressbar {
+       width: 0px;
+       height: 100%;
+       background: rgb(116, 5, 5);
+   }
+   
+   .musicPlayer {
+       display: flex;
+       flex-direction: row;
+   }
+   
+   .controls {
+       color: #fff;
+       font-size: 26px;
+       margin: 20px 40px;
+       cursor: pointer;
+   }
+   
+   i.pauseicon {
+       display: none;
+   }

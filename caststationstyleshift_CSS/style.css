@@ -1,0 +1,139 @@
+div.all {
+  max-width: 1014px;
+  margin: 0 auto;
+  height: 2000px;
+}
+div.navigation {
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  opacity: 0.9;
+}
+div.logo {
+  width: 30px;
+  height: 30px;
+  /* margin-left: 35px; */
+}
+div.menu {
+  width: 600px;
+  margin-right: 50px;
+}
+div.menu a {
+  font-size: 13pt;
+  text-decoration: none;
+  color: black;
+  vertical-align: top;
+  margin-top: 7px;
+  /* margin-left: 3px; */
+  padding: 13px;
+}
+div.menu a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+div.container {
+  display: flex;
+}
+div.aside {
+  display: inline-block;
+  width: 30%;
+}
+div.imgpar {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  margin-top: 30px;
+}
+input {
+  margin-top: 30px;
+}
+input.txtmail {
+  padding-left: 20px;
+  width: 230px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgba(204, 204, 204, 0.3);
+}
+span,
+p {
+  color: #6b6a6a;
+}
+div.footer {
+  background-color: rgba(196, 188, 83, 0.3);
+  padding: 30px;
+}
+div.hidemenu {
+  display: none;
+}
+@media (max-width: 820px) {
+  div.navigation {
+    justify-content: space-between;
+  }
+  div.menu {
+    display: none;
+  }
+  div.hidemenu {
+    display: block;
+  }
+  div.aside {
+    width: 100%;
+  }
+  div.container {
+    flex-wrap: wrap;
+  }
+  div.aside {
+    text-align: center;
+  }
+  div.inner {
+    margin: 0 auto;
+    width: 350px;
+  }
+  div.imgpar {
+    width: 100%;
+    margin-bottom: 50px;
+    /* overflow: hidden; */
+    margin-left: 160px;
+  }
+  div.imginner {
+    margin: 0 80px;
+    width: 650px;
+  }
+}
+@media (max-width: 440px) {
+  div.imgpar {
+    width: 100%;
+    margin: 0 -50px;
+  }
+}
+@media (max-width: 375px) {
+  div.inner {
+    width: 95%;
+  }
+  div.imgpar {
+    width: 100%;
+    margin: 0 -50px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 280px) {
+  div.inner {
+    width: 100%;
+  }
+  div.aside {
+    justify-content: left;
+    text-align: left;
+  }
+  div.imgpar {
+    text-align: left;
+    margin: 0 -50px;
+  }
+  img.wallpaper {
+    width: 300px;
+    height: 250px;
+  }
+}

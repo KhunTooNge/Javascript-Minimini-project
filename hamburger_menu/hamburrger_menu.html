@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Hamburger Menu</title>
+    <style>
+        body {
+            background-color: rgb(218, 10, 218);
+        }
+        
+        .container {
+            margin-top: 60px;
+            position: relative;
+        }
+        
+        .stick1,
+        .stick2,
+        .stick3,
+        .colorchange,
+        .liuptab,
+        .liupDown {
+            transition: all 0.8s ease;
+        }
+        
+        .stick1,
+        .stick2,
+        .stick3 {
+            width: 40px;
+            height: 4px;
+            background-color: aqua;
+            margin: 8px;
+        }
+        
+        .stick2 {
+            opacity: 1;
+        }
+        
+        .rotatestick1 {
+            transform: rotate(45deg) translate(8px, 9px);
+        }
+        
+        .rotatestick3 {
+            transform: rotate(-45deg) translate(8px, -9px);
+        }
+        
+        .stickgroup {
+            position: absolute;
+            right: 0;
+            cursor: pointer;
+            z-index: 1;
+        }
+        
+        .colorchange {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(55, 0, 55);
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        li {
+            list-style: none;
+            color: aquamarine;
+            font-size: 26pt;
+            font-weight: bolder;
+            padding-top: 5px;
+        }
+        
+        .liupUp {
+            transform: translateY(-10px);
+        }
+        
+        .liupDown {
+            transform: translateY(10px);
+        }
+        
+        li:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="stickgroup">
+            <div class="stick1"></div>
+            <div class="stick2"></div>
+            <div class="stick3"></div>
+        </div>
+    </div>
+    <div class="colorchange">
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About Us</li>
+            <li>Contant Us</li>
+        </ul>
+    </div>
+
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
